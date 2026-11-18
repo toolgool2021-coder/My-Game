@@ -1,31 +1,33 @@
 # TL MooMoo — Survival Arena
 
-Browser-based survival game inspired by the MooMoo.io genre, with original visuals and implementation.
+Самостоятельная браузерная survival.io-игра, вдохновлённая MooMoo.io. **Это не точная копия оригинала и не его исходный код.**
 
-## Play
-Install Node.js 18+ and run:
+## Запуск
 
-```sh
-npm install
-npm start
-```
+- GitHub Pages: https://toolgool2021-coder.github.io/my-game/
+- Локальный офлайн-режим: откройте корневой `index.html` через локальный HTTP-сервер, например `python -m http.server 8080`, затем `http://localhost:8080`.
+- Node.js-мультиплеер (отдельная серверная реализация): `npm install && npm start`; откройте `http://localhost:3000`. GitHub Pages сам по себе WebSocket-сервер не запускает.
 
-Open **http://localhost:3000**. Choose **Singleplayer** for an offline-style local game, or **Multiplayer** to connect to the Node.js WebSocket server. Multiplayer works when multiple players open the same hosted URL.
+## Управление
 
-## Features
-- 4200×4200 world, trees, stone, food and gold deposits
-- Singleplayer bots, wildlife and combat
-- Server-authoritative multiplayer movement, harvesting, player combat and respawns
-- Four buildables: wall, spike, gold mill and defensive turret
-- Food healing, level progression, stone sword upgrade
-- Leaderboard, kills, clan tags, chat, mobile touch controls
-- Server health endpoint and GitHub Actions syntax/startup checks
+- **WASD** — движение; мышь — направление.
+- **ЛКМ / Space** — атака и добыча.
+- **1–4** — стена, шипы, мельница, башня.
+- **Q** — лечение; **U** — улучшение оружия; **C** — тег клана.
+- **Alt + ЛКМ** — разрушить свою постройку рядом.
+- **Настройки** — переназначение клавиш, сброс управления, новая локальная игра.
+- На телефоне — экранный джойстик и кнопка атаки.
 
-## Controls
-WASD / arrows: move. Mouse: aim. Click or Space: attack/harvest. 1–4: build wall/spike/mill/turret. Q: eat food. U: upgrade weapon (level 3, 40 wood and 30 stone). C: clan tag. Enter: chat.
+## Локальная игра
 
-## Deploy
-Deploy as a **Node.js web service**. A `render.yaml` blueprint is included for Render. Render free services may sleep when idle. GitHub Pages cannot host the WebSocket server. No database is required, but progress resets on restart and disconnect.
+Боты собирают ресурсы, строят стены, преследуют игрока, сражаются, отступают и лечатся. Есть животные, добыча, строительство, золото, магазин экипировки, несколько зон карты, выбор бонусов при повышении AGE и автосохранение через `localStorage`. Прочность оружия и его поломка — собственная механика TL MooMoo, не точная механика оригинала.
 
-## Current limitations
-Alpha release: no persistent accounts, moderation, matchmaking, secure identity, database or large-scale load testing. Designed for small casual multiplayer sessions; do not treat as a production-hardened public service.
+**Ограничения:** полноценная система оригинальных предметов, шляп, оружия, построек, AI, баланса и всех AGE-веток ещё не реализована. Сетевой режим не использует Firebase и не синхронизирован по всем новым локальным механикам.
+
+## Firebase (позже)
+
+`firebase.json`, `database.rules.json` и `firestore.rules` добавлены для будущей интеграции. Сейчас правила **запрещают любое чтение и запись**. Для работы Firebase необходимо отдельно настроить проект, аутентификацию и серверную проверку игровых событий. Не размещайте сервисные ключи в GitHub.
+
+## Проверка
+
+GitHub Actions выполняет `node --check` для игрового клиента и сервера, устанавливает зависимости и проверяет HTTP-ответ локального сервера. Это не заменяет ручные браузерные и мобильные тесты.
