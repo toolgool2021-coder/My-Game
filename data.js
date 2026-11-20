@@ -2,7 +2,7 @@
 window.GAMES = [
   {
     "name": "Geometry Dash",
-    "icon": "images/icons/geometry-dash.svg",
+    "icon": "",
     "enabled": true,
     "image": "",
     "nickname": "TOOLGOOL2023",
@@ -48,7 +48,7 @@ window.GAMES = [
   },
   {
     "name": "Minecraft",
-    "icon": "images/icons/minecraft.svg",
+    "icon": "",
     "enabled": true,
     "image": "",
     "nickname": "Toolgool",
@@ -95,7 +95,7 @@ window.GAMES = [
   },
   {
     name: "MooMoo.io", // Название игры
-    icon: "images/icons/moomooio.svg", // Путь к иконке: images/icons/название.svg
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
@@ -136,7 +136,7 @@ window.GAMES = [
   },
   {
     "name": "Brawl Stars",
-    "icon": "images/icons/brawl-stars.svg",
+    "icon": "",
     "enabled": true,
     "image": "",
     "nickname": "toolgool:YouTub",
@@ -185,7 +185,7 @@ window.GAMES = [
   },
   {
     "name": "Clash Royale",
-    "icon": "images/icons/clash-royale.svg",
+    "icon": "",
     "enabled": true,
     "image": "",
     "nickname": "TL I TOOLGOOL",
@@ -242,7 +242,7 @@ window.GAMES = [
   },
   {
     "name": "Clash of Clans",
-    "icon": "images/icons/clash-of-clans.svg",
+    "icon": "",
     "enabled": true,
     "image": "",
     "nickname": "『TL』 Минджун",
@@ -2476,3 +2476,12 @@ window.GAMES = [
 
 // Мой телефон: характеристики модели, память уточни для своей версии
 window.GAMING_DEVICE={name:"Redmi 12C",specs:[{label:"Процессор",value:"MediaTek Helio G85"},{label:"Графика",value:"Mali-G52 MC2"},{label:"Экран",value:"6.71″ IPS · 1650 × 720"},{label:"Частота экрана",value:"60 Гц"},{label:"Аккумулятор",value:"5000 мА·ч"},{label:"Основная камера",value:"50 Мп"},{label:"Оперативная память",value:""},{label:"Накопитель",value:""}]};
+
+// Реальные изображения из папок images/icons и images/profiles.
+{ const game=window.GAMES.find(g=>g.name==="Geometry Dash"); if(game){ game.icon="images/icons/GeometryDash_icon.jpg"; game.image="images/profiles/GeometryDash.jpg"; } }
+{ const game=window.GAMES.find(g=>g.name==="Minecraft"); if(game){ game.icon="images/icons/Minecraft_icon.jpg"; game.image="images/profiles/ZalithLauncher.jpg"; } }
+{ const game=window.GAMES.find(g=>g.name==="Brawl Stars"); if(game){ game.icon="images/icons/BrawlStart_icon.jpg";  } }
+{ const game=window.GAMES.find(g=>g.name==="Clash Royale"); if(game){ game.icon="images/icons/ClashRoyale_icon.jpg"; game.image="images/profiles/ClashRoyale.jpg"; } }
+{ const game=window.GAMES.find(g=>g.name==="Clash of Clans"); if(game){ game.icon="images/icons/ClashOfClans_logo.jpg";  } }
+{ const game=window.GAMES.find(g=>g.name==="Chess.com"); if(game){  game.image="images/profiles/Chess.com.jpg"; } }
+{ const game=window.GAMES.find(g=>g.name==="Hay Day"); if(game){ game.icon="images/icons/HayDay_logo.jpg";  } }
