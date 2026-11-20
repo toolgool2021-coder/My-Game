@@ -2422,3 +2422,6 @@ window.GAMES = [
 // Geometry Dash: nickname: "ExamplePlayer", image: "images/profiles/geometry-dash.svg",
 // stats: [{ icon: "😈", label: "Демоны", value: 120 }, { icon: "⭐", label: "Звёзды", value: 5000 }]
 // Minecraft: identifiers: [{ label: "Xbox Gamertag", value: "ExamplePlayer" }]
+
+// Мой телефон: характеристики модели, память уточни для своей версии
+window.GAMING_DEVICE={name:"Redmi 12C",specs:[{label:"Процессор",value:"MediaTek Helio G85"},{label:"Графика",value:"Mali-G52 MC2"},{label:"Экран",value:"6.71″ IPS · 1650 × 720"},{label:"Частота экрана",value:"60 Гц"},{label:"Аккумулятор",value:"5000 мА·ч"},{label:"Основная камера",value:"50 Мп"},{label:"Оперативная память",value:""},{label:"Накопитель",value:""}]};
