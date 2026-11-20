@@ -2,11 +2,13 @@
 window.GAMES = [
   {
     name: "Geometry Dash", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/geometry-dash.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -31,6 +33,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -42,11 +46,13 @@ window.GAMES = [
   },
   {
     name: "Minecraft", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/minecraft.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -66,6 +72,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -77,11 +85,13 @@ window.GAMES = [
   },
   {
     name: "MooMoo.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/moomooio.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -103,6 +113,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -114,11 +126,13 @@ window.GAMES = [
   },
   {
     name: "Brawl Stars", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/brawl-stars.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -141,6 +155,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -152,11 +168,13 @@ window.GAMES = [
   },
   {
     name: "Clash Royale", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/clash-royale.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -178,6 +196,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -189,11 +209,13 @@ window.GAMES = [
   },
   {
     name: "Clash of Clans", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "images/icons/clash-of-clans.svg", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -215,6 +237,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -226,11 +250,13 @@ window.GAMES = [
   },
   {
     name: "Roblox", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -251,6 +277,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -262,11 +290,13 @@ window.GAMES = [
   },
   {
     name: "Terraria", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -287,6 +317,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -298,11 +330,13 @@ window.GAMES = [
   },
   {
     name: "Stardew Valley", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -323,6 +357,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -334,11 +370,13 @@ window.GAMES = [
   },
   {
     name: "Among Us", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -359,6 +397,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -370,11 +410,13 @@ window.GAMES = [
   },
   {
     name: "Genshin Impact", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -395,6 +437,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -406,11 +450,13 @@ window.GAMES = [
   },
   {
     name: "Honkai: Star Rail", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -431,6 +477,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -442,11 +490,13 @@ window.GAMES = [
   },
   {
     name: "Zenless Zone Zero", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -467,6 +517,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -478,11 +530,13 @@ window.GAMES = [
   },
   {
     name: "PUBG Mobile", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -503,6 +557,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -514,11 +570,13 @@ window.GAMES = [
   },
   {
     name: "Call of Duty: Mobile", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -539,6 +597,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -550,11 +610,13 @@ window.GAMES = [
   },
   {
     name: "Standoff 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -575,6 +637,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -586,11 +650,13 @@ window.GAMES = [
   },
   {
     name: "Critical Ops", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -611,6 +677,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -622,11 +690,13 @@ window.GAMES = [
   },
   {
     name: "Free Fire", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -647,6 +717,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -658,11 +730,13 @@ window.GAMES = [
   },
   {
     name: "Mobile Legends", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -683,6 +757,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -694,11 +770,13 @@ window.GAMES = [
   },
   {
     name: "League of Legends", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -719,6 +797,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -730,11 +810,13 @@ window.GAMES = [
   },
   {
     name: "Dota 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -755,6 +837,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -766,11 +850,13 @@ window.GAMES = [
   },
   {
     name: "Counter-Strike 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -791,6 +877,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -802,11 +890,13 @@ window.GAMES = [
   },
   {
     name: "Valorant", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -827,6 +917,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -838,11 +930,13 @@ window.GAMES = [
   },
   {
     name: "Fortnite", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -863,6 +957,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -874,11 +970,13 @@ window.GAMES = [
   },
   {
     name: "Rocket League", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -899,6 +997,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -910,11 +1010,13 @@ window.GAMES = [
   },
   {
     name: "Overwatch 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -935,6 +1037,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -946,11 +1050,13 @@ window.GAMES = [
   },
   {
     name: "Team Fortress 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -971,6 +1077,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -982,11 +1090,13 @@ window.GAMES = [
   },
   {
     name: "Apex Legends", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1007,6 +1117,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1018,11 +1130,13 @@ window.GAMES = [
   },
   {
     name: "GTA V", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1043,6 +1157,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1054,11 +1170,13 @@ window.GAMES = [
   },
   {
     name: "GTA San Andreas", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1079,6 +1197,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1090,11 +1210,13 @@ window.GAMES = [
   },
   {
     name: "Red Dead Redemption 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1115,6 +1237,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1126,11 +1250,13 @@ window.GAMES = [
   },
   {
     name: "Need for Speed", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1151,6 +1277,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1162,11 +1290,13 @@ window.GAMES = [
   },
   {
     name: "Forza Horizon 5", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1187,6 +1317,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1198,11 +1330,13 @@ window.GAMES = [
   },
   {
     name: "Euro Truck Simulator 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1223,6 +1357,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1234,11 +1370,13 @@ window.GAMES = [
   },
   {
     name: "The Sims 4", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1259,6 +1397,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1270,11 +1410,13 @@ window.GAMES = [
   },
   {
     name: "Portal 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1295,6 +1437,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1306,11 +1450,13 @@ window.GAMES = [
   },
   {
     name: "Half-Life 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1331,6 +1477,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1342,11 +1490,13 @@ window.GAMES = [
   },
   {
     name: "Left 4 Dead 2", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1367,6 +1517,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1378,11 +1530,13 @@ window.GAMES = [
   },
   {
     name: "Subnautica", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1403,6 +1557,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1414,11 +1570,13 @@ window.GAMES = [
   },
   {
     name: "Don't Starve Together", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1439,6 +1597,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1450,11 +1610,13 @@ window.GAMES = [
   },
   {
     name: "Hollow Knight", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1475,6 +1637,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1486,11 +1650,13 @@ window.GAMES = [
   },
   {
     name: "Celeste", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1511,6 +1677,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1522,11 +1690,13 @@ window.GAMES = [
   },
   {
     name: "Undertale", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1547,6 +1717,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1558,11 +1730,13 @@ window.GAMES = [
   },
   {
     name: "Deltarune", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1583,6 +1757,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1594,11 +1770,13 @@ window.GAMES = [
   },
   {
     name: "Cuphead", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1619,6 +1797,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1630,11 +1810,13 @@ window.GAMES = [
   },
   {
     name: "Plants vs. Zombies", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1655,6 +1837,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1666,11 +1850,13 @@ window.GAMES = [
   },
   {
     name: "Bloons TD 6", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1691,6 +1877,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1702,11 +1890,13 @@ window.GAMES = [
   },
   {
     name: "osu!", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1727,6 +1917,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1738,11 +1930,13 @@ window.GAMES = [
   },
   {
     name: "Chess.com", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1762,6 +1956,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1773,11 +1969,13 @@ window.GAMES = [
   },
   {
     name: "Lichess", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1797,6 +1995,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1808,11 +2008,13 @@ window.GAMES = [
   },
   {
     name: "Krunker.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1833,6 +2035,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1844,11 +2048,13 @@ window.GAMES = [
   },
   {
     name: "Shell Shockers", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1869,6 +2075,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1880,11 +2088,13 @@ window.GAMES = [
   },
   {
     name: "Diep.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1905,6 +2115,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1916,11 +2128,13 @@ window.GAMES = [
   },
   {
     name: "Agar.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1941,6 +2155,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1952,11 +2168,13 @@ window.GAMES = [
   },
   {
     name: "Slither.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -1977,6 +2195,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -1988,11 +2208,13 @@ window.GAMES = [
   },
   {
     name: "Surviv.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -2013,6 +2235,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -2024,11 +2248,13 @@ window.GAMES = [
   },
   {
     name: "ZombsRoyale.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -2049,6 +2275,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -2060,11 +2288,13 @@ window.GAMES = [
   },
   {
     name: "Skribbl.io", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -2085,6 +2315,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -2096,11 +2328,13 @@ window.GAMES = [
   },
   {
     name: "Fall Guys", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -2121,6 +2355,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -2132,11 +2368,13 @@ window.GAMES = [
   },
   {
     name: "Trackmania", // Название игры
-    icon: "", // Иконка игры: images/icon.png или URL
+    icon: "", // Путь к иконке: images/icons/название.svg
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
     playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -2157,6 +2395,8 @@ window.GAMES = [
         name: "", // Название аккаунта, например Твинк №1
         nickname: "", // Ник твинка
         playerId: "", // Игровой ID
+        supercellId: "", // Публичный Supercell ID, НЕ email
+        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
         status: "", // playing / paused / dropped / occasionally
         statusDescription: "", // Описание активности
@@ -2167,3 +2407,12 @@ window.GAMES = [
     ]
   }
 ];
+
+// ПРИМЕРЫ (не публикуются автоматически; данные вымышленные)
+// Brawl Stars: playerId: "#EXAMPLE", supercellId: "ExamplePlayer",
+// identifiers: [{ label: "Клуб", value: "Example Club" }],
+// buttons: [{ label: "Добавить в друзья", url: "" }], // Вставь свою ссылку из игры
+// stats: [{ icon: "🏆", label: "Кубки", value: 25000 }]
+// Geometry Dash: nickname: "ExamplePlayer", image: "images/profiles/geometry-dash.svg",
+// stats: [{ icon: "😈", label: "Демоны", value: 120 }, { icon: "⭐", label: "Звёзды", value: 5000 }]
+// Minecraft: identifiers: [{ label: "Xbox Gamertag", value: "ExamplePlayer" }]
