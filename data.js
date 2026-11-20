@@ -2485,3 +2485,5 @@ window.GAMING_DEVICE={name:"Redmi 12C",specs:[{label:"Процессор",value:
 { const game=window.GAMES.find(g=>g.name==="Clash of Clans"); if(game){ game.icon="images/icons/ClashOfClans_logo.jpg";  } }
 { const game=window.GAMES.find(g=>g.name==="Chess.com"); if(game){  game.image="images/profiles/Chess.com.jpg"; } }
 { const game=window.GAMES.find(g=>g.name==="Hay Day"); if(game){ game.icon="images/icons/HayDay_logo.jpg";  } }
+
+{const chess=window.GAMES.find(g=>g.name==="Chess.com");if(chess)chess.icon="https://www.chess.com/favicon.ico";}
