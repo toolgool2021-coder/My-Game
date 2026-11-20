@@ -47,43 +47,51 @@ window.GAMES = [
     "accounts": []
   },
   {
-    name: "Minecraft", // Название игры
-    icon: "images/icons/minecraft.svg", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Дни в мире", value: "" }, // Впиши число или текст
-      { label: "Версия", value: "" }, // Впиши число или текст
-      { label: "Режим", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Minecraft",
+    "icon": "images/icons/minecraft.svg",
+    "enabled": true,
+    "image": "",
+    "nickname": "Toolgool",
+    "platform": "Android · Java Edition",
+    "status": "playing",
+    "statusDescription": "Играю на телефоне через Zalith Launcher. Можем поиграть вместе по сети.",
+    "description": "Играю в Minecraft уже около 10 лет. Предпочитаю версию 1.12.2, использую OptiFine, Forge и Vanilla.",
+    "stats": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "label": "Стаж",
+        "value": "≈ 10 лет"
+      },
+      {
+        "label": "Версия",
+        "value": "1.12.2"
+      },
+      {
+        "label": "FPS",
+        "value": "40-150"
+      },
+      {
+        "label": "Лаунчер",
+        "value": "Zalith Launcher"
+      },
+      {
+        "label": "Тип аккаунта",
+        "value": "Локальный"
+      },
+      {
+        "label": "Клиенты",
+        "value": "OptiFine / Forge / Vanilla"
+      },
+      {
+        "label": "Устройство",
+        "value": "Redmi 12C"
+      },
+      {
+        "label": "Мультиплеер",
+        "value": "Доступен"
       }
-    ]
+    ],
+    "buttons": [],
+    "accounts": []
   },
   {
     name: "MooMoo.io", // Название игры
