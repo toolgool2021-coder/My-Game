@@ -5,6 +5,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -19,6 +20,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -33,6 +35,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -47,6 +50,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -61,6 +65,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -75,6 +80,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -89,6 +95,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -103,6 +110,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -117,6 +125,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -131,6 +140,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -145,6 +155,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -159,6 +170,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -173,6 +185,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -187,6 +200,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -201,6 +215,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -215,6 +230,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -229,6 +245,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -243,6 +260,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -257,6 +275,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -271,6 +290,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -285,6 +305,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -299,6 +320,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -313,6 +335,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -327,6 +350,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -341,6 +365,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -355,6 +380,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -369,6 +395,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -383,6 +410,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -397,6 +425,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -411,6 +440,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -425,6 +455,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -439,6 +470,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -453,6 +485,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -467,6 +500,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -481,6 +515,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -495,6 +530,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -509,6 +545,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -523,6 +560,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -537,6 +575,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -551,6 +590,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -565,6 +605,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -579,6 +620,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -593,6 +635,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -607,6 +650,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -621,6 +665,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -635,6 +680,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -649,6 +695,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -663,6 +710,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -677,6 +725,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -691,6 +740,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -705,6 +755,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -719,6 +770,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -733,6 +785,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -747,6 +800,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -761,6 +815,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -775,6 +830,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -789,6 +845,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -803,6 +860,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -817,6 +875,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
@@ -831,6 +890,7 @@ window.GAMES = [
     enabled: false, // true = показать, false = скрыть
     image: "", // Фото: images/game.jpg или https://...
     nickname: "", // Игровой ник
+    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
     platform: "", // Android, PC, PS3 и т.д.
     status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
     statusDescription: "", // Почему играю или перестал играть
