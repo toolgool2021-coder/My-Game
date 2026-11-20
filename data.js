@@ -10,7 +10,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -36,7 +36,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -54,7 +54,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -75,7 +75,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -93,7 +93,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -116,7 +116,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -139,8 +139,8 @@ window.GAMES = [
       }
     ],
     "platform": "Android",
-    "status": "occasionally",
-    "statusDescription": "Сейчас играю редко из-за сильных лагов. Производительность моего телефона не позволяет комфортно играть.",
+    "status": "paused",
+    "statusDescription": "Сейчас не играю из-за сильных лагов. Производительность моего телефона не позволяет комфортно играть.",
     "description": "Играю с 2017 года. Ранее у меня был основной аккаунт с примерно 100 000 кубков. После взлома Supercell ID я потерял к нему доступ и создал дополнительный аккаунт, который сейчас представлен на сайте.",
     "stats": [
       { "icon": "📅", "label": "Играю с", "value": "2017 года" },
@@ -183,7 +183,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -206,7 +206,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -284,7 +284,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -306,7 +306,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -324,7 +324,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -346,7 +346,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -364,7 +364,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -386,7 +386,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -404,7 +404,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -426,7 +426,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -444,7 +444,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -466,7 +466,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -484,7 +484,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -506,7 +506,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -524,7 +524,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -546,7 +546,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -564,7 +564,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -586,7 +586,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -604,7 +604,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -626,7 +626,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -644,7 +644,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -666,7 +666,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -684,7 +684,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -706,7 +706,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -724,7 +724,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -746,7 +746,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -764,7 +764,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -786,7 +786,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -804,7 +804,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -826,7 +826,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -844,7 +844,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -866,7 +866,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -884,7 +884,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -906,7 +906,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -924,7 +924,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -946,7 +946,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -964,7 +964,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -986,7 +986,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1004,7 +1004,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1026,7 +1026,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1044,7 +1044,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1066,7 +1066,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1084,7 +1084,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1106,7 +1106,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1124,7 +1124,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1146,7 +1146,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1164,7 +1164,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1186,7 +1186,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1204,7 +1204,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1226,7 +1226,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1244,7 +1244,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1266,7 +1266,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1284,7 +1284,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1306,7 +1306,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1324,7 +1324,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1346,7 +1346,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1364,7 +1364,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1386,7 +1386,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1404,7 +1404,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1426,7 +1426,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1444,7 +1444,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1466,7 +1466,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1484,7 +1484,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1506,7 +1506,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1524,7 +1524,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1546,7 +1546,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1564,7 +1564,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1586,7 +1586,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1604,7 +1604,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1626,7 +1626,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1644,7 +1644,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1666,7 +1666,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1684,7 +1684,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1706,7 +1706,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1724,7 +1724,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1746,7 +1746,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1764,7 +1764,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1786,7 +1786,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1804,7 +1804,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1826,7 +1826,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1844,7 +1844,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1866,7 +1866,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1884,7 +1884,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1906,7 +1906,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1924,7 +1924,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1946,7 +1946,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -1964,7 +1964,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -1985,7 +1985,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2003,7 +2003,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2024,7 +2024,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2042,7 +2042,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2064,7 +2064,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2082,7 +2082,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2104,7 +2104,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2122,7 +2122,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2144,7 +2144,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2162,7 +2162,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2184,7 +2184,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2202,7 +2202,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2224,7 +2224,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2242,7 +2242,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2264,7 +2264,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2282,7 +2282,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2304,7 +2304,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2322,7 +2322,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2344,7 +2344,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2362,7 +2362,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2384,7 +2384,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
@@ -2402,7 +2402,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
     platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
+    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
     statusDescription: "", // Почему играю или перестал играть
     description: "", // История, достижения, описание
     stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
@@ -2424,7 +2424,7 @@ window.GAMES = [
         supercellId: "", // Публичный Supercell ID, НЕ email
         identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
         image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
+        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
         statusDescription: "", // Описание активности
         description: "", // Информация об аккаунте
         stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
