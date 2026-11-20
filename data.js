@@ -1,48 +1,50 @@
 // Все игры скрыты. Включайте нужные через enabled: true.
 window.GAMES = [
   {
-    name: "Geometry Dash", // Название игры
-    icon: "images/icons/geometry-dash.svg", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Звёзды", value: "" }, // Впиши число или текст
-      { label: "Луны", value: "" }, // Впиши число или текст
-      { label: "Демоны", value: "" }, // Впиши число или текст
-      { label: "Секретные монеты", value: "" }, // Впиши число или текст
-      { label: "Пользовательские монеты", value: "" }, // Впиши число или текст
-      { label: "Алмазы", value: "" }, // Впиши число или текст
-      { label: "Создательские очки", value: "" }, // Впиши число или текст
-      { label: "Глобальный рейтинг", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Geometry Dash",
+    "icon": "images/icons/geometry-dash.svg",
+    "enabled": true,
+    "image": "",
+    "nickname": "TOOLGOOL2023",
+    "playerId": "",
+    "platform": "",
+    "status": "occasionally",
+    "statusDescription": "Сейчас захожу значительно реже.",
+    "description": "Играю в Geometry Dash уже около 10 лет. Основная специализация: триггеры, создание игровых механик, сложных систем и интерактивных уровней. Занимаюсь разработкой боссфайтов, платформеров, мини-игр и оптимизацией конструкций в редакторе.",
+    "stats": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "icon": "📅",
+        "label": "Стаж",
+        "value": "≈ 10 лет"
+      },
+      {
+        "icon": "⭐",
+        "label": "Звёзды",
+        "value": 2837
+      },
+      {
+        "icon": "🌙",
+        "label": "Луны",
+        "value": 0
+      },
+      {
+        "icon": "🟡",
+        "label": "Секретные монеты",
+        "value": 104
+      },
+      {
+        "icon": "⚪",
+        "label": "Пользовательские монеты",
+        "value": 155
+      },
+      {
+        "icon": "😈",
+        "label": "Демоны",
+        "value": 122
       }
-    ]
+    ],
+    "buttons": [],
+    "accounts": []
   },
   {
     name: "Minecraft", // Название игры
