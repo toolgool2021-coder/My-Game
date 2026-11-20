@@ -174,45 +174,61 @@ window.GAMES = [
     "accounts": []
   },
   {
-    name: "Clash Royale", // Название игры
-    icon: "images/icons/clash-royale.svg", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Кубки", value: "" }, // Впиши число или текст
-      { label: "Максимум кубков", value: "" }, // Впиши число или текст
-      { label: "Арена", value: "" }, // Впиши число или текст
-      { label: "Лига", value: "" }, // Впиши число или текст
-      { label: "Уровень короля", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Clash Royale",
+    "icon": "images/icons/clash-royale.svg",
+    "enabled": true,
+    "image": "",
+    "nickname": "TL I TOOLGOOL",
+    "playerId": "#VRC92CCVG",
+    "supercellId": "",
+    "identifiers": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "label": "Клан",
+        "value": "TL I Prime"
+      },
+      {
+        "label": "Должность",
+        "value": "Глава"
       }
-    ]
+    ],
+    "platform": "Android",
+    "status": "playing",
+    "statusDescription": "Активно играю в Clash Royale.",
+    "description": "",
+    "stats": [
+      {
+        "icon": "🏆",
+        "label": "Кубки",
+        "value": 5371
+      },
+      {
+        "label": "Арена",
+        "value": 15
+      },
+      {
+        "label": "Победы",
+        "value": 340
+      },
+      {
+        "icon": "🔥",
+        "label": "Серия побед",
+        "value": 6
+      },
+      {
+        "label": "Рейтинговая лига",
+        "value": "Мастер I"
+      },
+      {
+        "label": "Тактическое объединение",
+        "value": "Бронзовая I"
+      },
+      {
+        "label": "Тактический рейтинг",
+        "value": 73
+      }
+    ],
+    "buttons": [],
+    "accounts": []
   },
   {
     "name": "Clash of Clans",
