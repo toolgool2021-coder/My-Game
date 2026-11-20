@@ -125,46 +125,52 @@ window.GAMES = [
     ]
   },
   {
-    name: "Brawl Stars", // Название игры
-    icon: "images/icons/brawl-stars.svg", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Кубки", value: "" }, // Впиши число или текст
-      { label: "Максимум кубков", value: "" }, // Впиши число или текст
-      { label: "Ранг", value: "" }, // Впиши число или текст
-      { label: "Рейтинговая лига", value: "" }, // Впиши число или текст
-      { label: "Победы 3 на 3", value: "" }, // Впиши число или текст
-      { label: "Бойцы", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Brawl Stars",
+    "icon": "images/icons/brawl-stars.svg",
+    "enabled": true,
+    "image": "",
+    "nickname": "toolgool:YouTub",
+    "playerId": "#YRJ9RYOYU",
+    "supercellId": "Toolgool2023",
+    "identifiers": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "label": "Тип аккаунта",
+        "value": "Твинк"
       }
-    ]
+    ],
+    "platform": "Android",
+    "status": "paused",
+    "statusDescription": "Сейчас не играю из-за сильных лагов. Производительности телефона недостаточно для комфортной игры.",
+    "description": "Дополнительный аккаунт. Ранее играл на основном аккаунте с примерно 100 000 кубков, но потерял к нему доступ.",
+    "stats": [
+      {
+        "icon": "🏆",
+        "label": "Кубки",
+        "value": 8638
+      },
+      {
+        "icon": "🎮",
+        "label": "Бойцы",
+        "value": "51/108"
+      },
+      {
+        "icon": "⚔️",
+        "label": "Текущий рейтинг",
+        "value": 750
+      },
+      {
+        "icon": "👑",
+        "label": "Максимальный рейтинг",
+        "value": 2043
+      },
+      {
+        "icon": "💎",
+        "label": "Прайм",
+        "value": 2
+      }
+    ],
+    "buttons": [],
+    "accounts": []
   },
   {
     name: "Clash Royale", // Название игры
