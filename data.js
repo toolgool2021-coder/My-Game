@@ -1981,43 +1981,48 @@ window.GAMES = [
     ]
   },
   {
-    name: "Chess.com", // Название игры
-    icon: "", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Рейтинг блиц", value: "" }, // Впиши число или текст
-      { label: "Рейтинг рапид", value: "" }, // Впиши число или текст
-      { label: "Рейтинг пуля", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Chess.com",
+    "icon": "",
+    "enabled": true,
+    "image": "",
+    "nickname": "TL-Toolgool 🇰🇬 ‼️",
+    "playerId": "@Toolgool",
+    "platform": "Android",
+    "status": "playing",
+    "statusDescription": "Часто захожу и играю по настроению, преимущественно для удовольствия.",
+    "description": "Качество моей игры сильно зависит от настроения, концентрации и желания играть. Когда действительно увлечён партией, играю значительно лучше, а в остальных случаях могу допускать много ошибок и зевков. Не гонюсь за рейтингом Эло и чаще играю по фану.",
+    "stats": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing = играю; occasionally = могу поиграть с близкими; paused = не играю (причину укажи ниже)
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "icon": "⏱️",
+        "label": "Рапид",
+        "value": 873
+      },
+      {
+        "icon": "⚡",
+        "label": "Блиц",
+        "value": 702
+      },
+      {
+        "icon": "🔥",
+        "label": "Серия активности",
+        "value": "12 дней"
+      },
+      {
+        "label": "Регистрация",
+        "value": "09.11.2026"
+      },
+      {
+        "label": "Лига",
+        "value": "Stone"
       }
-    ]
+    ],
+    "buttons": [
+      {
+        "label": "Мой профиль",
+        "url": "https://www.chess.com/member/toolgool"
+      }
+    ],
+    "accounts": []
   },
   {
     name: "Lichess", // Название игры
