@@ -214,45 +214,63 @@ window.GAMES = [
     ]
   },
   {
-    name: "Clash of Clans", // Название игры
-    icon: "images/icons/clash-of-clans.svg", // Путь к иконке: images/icons/название.svg
-    enabled: false, // true = показать, false = скрыть
-    image: "", // Фото: images/game.jpg или https://...
-    nickname: "", // Игровой ник
-    playerId: "", // Игровой тег или ID (например #FJHBSU363), пустое поле скрыто
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-    platform: "", // Android, PC, PS3 и т.д.
-    status: "", // playing = играю; paused = пауза; dropped = забросил; completed = прошёл; occasionally = иногда; planned = в планах
-    statusDescription: "", // Почему играю или перестал играть
-    description: "", // История, достижения, описание
-    stats: [ // Статистика: пустые значения скрыты; можно добавлять любые показатели
-      { label: "Кубки", value: "" }, // Впиши число или текст
-      { label: "Максимум кубков", value: "" }, // Впиши число или текст
-      { label: "Ратуша", value: "" }, // Впиши число или текст
-      { label: "Лига", value: "" }, // Впиши число или текст
-      { label: "Уровень", value: "" }, // Впиши число или текст
-    ],
-    buttons: [
-      // { label: "Мой профиль", url: "" },
-      // { label: "Добавить в друзья", url: "" }
-    ],
-    accounts: [ // Дополнительные аккаунты, добавляй сколько нужно
+    "name": "Clash of Clans",
+    "icon": "images/icons/clash-of-clans.svg",
+    "enabled": true,
+    "image": "",
+    "nickname": "『TL』 Минджун",
+    "playerId": "#CLYG9V90U",
+    "supercellId": "",
+    "identifiers": [
       {
-        enabled: false, // true = показать твинк
-        name: "", // Название аккаунта, например Твинк №1
-        nickname: "", // Ник твинка
-        playerId: "", // Игровой ID
-        supercellId: "", // Публичный Supercell ID, НЕ email
-        identifiers: [], // Дополнительные ID: [{ label: "Steam ID", value: "" }]
-        image: "", // Скриншот профиля
-        status: "", // playing / paused / dropped / occasionally
-        statusDescription: "", // Описание активности
-        description: "", // Информация об аккаунте
-        stats: [{ label: "Кубки / рейтинг", value: "" }], // Любая статистика
-        buttons: [{ label: "Добавить в друзья", url: "" }] // Ссылка
+        "label": "Клан",
+        "value": "HEROES"
+      },
+      {
+        "label": "Должность",
+        "value": "Соруководитель"
       }
-    ]
+    ],
+    "platform": "Android",
+    "status": "paused",
+    "statusDescription": "Перестал играть совсем недавно. После масштабных обновлений производительность игры значительно ухудшилась. На моём Redmi 12C частота кадров практически не превышает 2–4 FPS, из-за чего комфортно играть стало невозможно.",
+    "description": "Мой профиль в Clash of Clans. Соруководитель клана HEROES.",
+    "stats": [
+      {
+        "icon": "⭐",
+        "label": "Уровень",
+        "value": 140
+      },
+      {
+        "icon": "🛡️",
+        "label": "Уровень клана",
+        "value": 14
+      },
+      {
+        "icon": "⚔️",
+        "label": "Боевые звёзды",
+        "value": 314
+      },
+      {
+        "icon": "🏆",
+        "label": "Текущая лига",
+        "value": "П.Е.К.К.А."
+      },
+      {
+        "label": "Уровень лиги",
+        "value": 23
+      },
+      {
+        "label": "Лучший итог",
+        "value": "22-е место"
+      },
+      {
+        "label": "Пожертвовано войск",
+        "value": 231
+      }
+    ],
+    "buttons": [],
+    "accounts": []
   },
   {
     name: "Roblox", // Название игры
