@@ -53,3 +53,12 @@ body{background:radial-gradient(ellipse at 80% -10%,#a6f35c1b,transparent 44%),r
 
 /* Rotate only when dragged directly on phone, never on hover or ambient animation. */
 .hero-right .device-float{animation:none!important}.device-float{animation:none!important}.device-stage{cursor:default}.device-stage .device-phone{cursor:grab}.device-stage:active .device-phone{cursor:grabbing}.device-phone{transition:transform .12s ease-out}
+
+/* Rear plastic impact overhaul: no glass fracture or global diagonal scratches. */
+.device-phone[data-rear] .device-back .back-damage{background:none!important;opacity:0!important;box-shadow:none!important}
+.device-phone[data-rear] .device-back:after{background:none!important;opacity:0!important}
+.device-phone[data-rear="2"] .device-back,.device-phone[data-rear="3"] .device-back{filter:none!important;background:repeating-linear-gradient(125deg,#353b3e 0px,#353b3e 2px,#303638 3px,#303638 5px)!important}
+.device-back .rear-dent{position:absolute;z-index:9;pointer-events:none;display:block;width:var(--dent-size,22px);height:calc(var(--dent-size,22px)*.82);border-radius:50%;transform:translate(-50%,-50%) rotate(var(--dent-angle,0deg));background:radial-gradient(ellipse at 47% 43%,#0b0f1280 0%,#13191b6b 38%,transparent 68%);box-shadow:inset 2px 3px 5px #000a,inset -2px -3px 4px #d9e6e344,0 0 0 1px #e6eeee18;mix-blend-mode:normal;opacity:1}
+.device-back .rear-dent i{position:absolute;inset:12%;border-radius:49% 51% 45% 55%;background:radial-gradient(ellipse at 38% 33%,#060a0b99,#161e2066 48%,transparent 77%);box-shadow:inset 1px 2px 3px #0009,inset -2px -2px 2px #a3b1af4d;opacity:var(--dent-depth,.65)}
+.device-back .rear-dent b{position:absolute;inset:-12%;border-radius:50%;border-top:1px solid #c7d3d35e;border-left:1px solid #d3dedb36;border-bottom:1px solid #02060690;filter:blur(.35px);transform:rotate(22deg)}
+.device-back .rear-dent:nth-of-type(2n){rotate:0deg}
