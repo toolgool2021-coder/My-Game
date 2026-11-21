@@ -34,3 +34,6 @@ body{background:radial-gradient(ellipse at 80% -10%,#a6f35c1b,transparent 44%),r
 
 /* No tap selection and no full-device impact translation. */
 .device-stage,.device-stage *{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}.device-controls:has(.phone-reset[hidden]){grid-template-columns:1fr!important}.device-controls:has(.phone-reset:not([hidden])){grid-template-columns:1fr 1fr!important}.device-front,.device-back{will-change:filter}
+
+/* Fine cracks progressively draw on the struck surface. */
+.device-front>.progressive-cracks,.device-back>.progressive-cracks{position:absolute;inset:0;width:100%;height:100%;z-index:6;pointer-events:none;overflow:hidden}.device-phone .phone-cracks{display:none!important}.device-phone[data-rear] .back-damage{background:radial-gradient(circle at 60% 40%,#080c0d44,transparent 55%)}.device-phone[data-rear="1"] .back-damage{opacity:.08}.device-phone[data-rear="2"] .back-damage{opacity:.18}.device-phone[data-rear="3"] .back-damage{opacity:.36}.device-phone[data-rear="2"] .device-back:after,.device-phone[data-rear="3"] .device-back:after,.device-phone[data-damage="2"] .device-back:after,.device-phone[data-damage="3"] .device-back:after{background:none!important}.device-phone[data-rear="3"] .device-back{filter:brightness(.78)}
