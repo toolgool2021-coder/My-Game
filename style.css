@@ -66,3 +66,8 @@ body{background:radial-gradient(ellipse at 80% -10%,#a6f35c1b,transparent 44%),r
 /* Strict separation: front damage cannot modify the rear shell. */
 .device-phone[data-rear="0"] .device-back{filter:none!important;background:repeating-linear-gradient(125deg,#353b3e 0px,#353b3e 2px,#303638 3px,#303638 5px)!important}
 .device-phone[data-rear="0"] .device-back:after{content:none!important}
+
+/* Rear dents: shallow plastic deformation, not dark circular holes. */
+.device-back .rear-dent{z-index:9!important;width:var(--dent-size,23px)!important;height:calc(var(--dent-size,23px)*.74)!important;transform:translate(-50%,-50%) rotate(var(--dent-angle,0deg))!important;border-radius:47% 53% 58% 42%!important;background:radial-gradient(ellipse at 48% 44%,#00000028 0%,#0000001c 30%,#ffffff0d 62%,transparent 78%)!important;box-shadow:inset 1px 2px 3px #0005,inset -1px -2px 2px #ffffff35,0 -1px 0 #ffffff2c,0 1px 0 #0005!important;mix-blend-mode:normal!important;opacity:var(--dent-opacity,.48)!important;filter:none!important}
+.device-back .rear-dent i,.device-back .rear-dent b{display:none!important}
+.device-back .rear-dent:nth-of-type(2n){rotate:0deg!important}
